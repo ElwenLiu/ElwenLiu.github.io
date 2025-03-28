@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kai | Academic Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #fff;
+      padding: 2rem;
+      border-bottom: 1px solid #eee;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #555;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kai</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate student with deep interests in [your academic field or topics].
+        My academic journey is motivated by curiosity and a commitment to understanding complex ideas with clarity and depth.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>
+        My research focuses on [brief summary of research interests]. I am particularly interested in [specific area/topic].
+        I aim to contribute to the field through rigorous analysis and thoughtful inquiry.
+      </p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><strong>Title of Paper</strong>, Journal Name, Year.</li>
+        <li><strong>Another Paper</strong>, Conference/Journal, Year.</li>
+        <!-- Add more as needed -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Kai. All rights reserved.
+  </footer>
+</body>
+</html>
