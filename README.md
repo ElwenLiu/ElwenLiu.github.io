@@ -49,6 +49,15 @@
       font-size: 0.9rem;
       color: #888;
     }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
@@ -58,6 +67,9 @@
       <a href="#about">About Me</a>
       <a href="#research">Research</a>
       <a href="#publications">Publications</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -65,8 +77,7 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I am an undergraduate student with deep interests in [your academic field or topics].
-        My academic journey is motivated by curiosity and a commitment to understanding complex ideas with clarity and depth.
+        I am an math undergraduate student at the university of Michigan with deep interests in probability theory.
       </p>
     </section>
 
@@ -85,6 +96,30 @@
         <li><strong>Another Paper</strong>, Conference/Journal, Year.</li>
         <!-- Add more as needed -->
       </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="path/to/image1.jpg" alt="Description 1" />
+        <img src="path/to/image2.jpg" alt="Description 2" />
+        <img src="path/to/image3.jpg" alt="Description 3" />
+        <!-- Add more images as desired -->
+      </div>
+    </section>
+
+    <section id="notes">
+      <h2>Notes</h2>
+      <p>
+        Here I share short reflections, academic ideas, or reading notes that I find insightful or thought-provoking.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        You can reach me at: <a href="mailto:kai@example.com">kai@example.com</a>
+      </p>
     </section>
   </main>
 
